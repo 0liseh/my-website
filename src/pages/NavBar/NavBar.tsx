@@ -2,6 +2,8 @@ import { NavBarComponent } from "./NavBarComponent"
 
 export const NavBar = () => {
     return(
-        <NavBarComponent/>
+        <NavBarComponent>
+            <p>NavBar</p>
+        </NavBarComponent>
     )
 }
