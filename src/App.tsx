@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import { HomePage } from './pages/Homepage/Homepage';
+import { HomePage } from './Pages/Homepage/Homepage';
+import { NavBar } from './Pages/NavBar/NavBar';
 
 const App = () => {
   return (
     <div className='App-Background'>
+      <NavBar/>
       <HomePage/>
     </div>
   );
