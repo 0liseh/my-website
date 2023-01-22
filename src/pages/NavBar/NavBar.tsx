@@ -1,9 +1,9 @@
-import { NavBarComponentsContainer } from "./NavBarComponents"
+import { NavBarContainer } from "./NavBarComponents"
 
 export const NavBar = () => {
     return(
-        <NavBarComponentsContainer>
+        <NavBarContainer>
             <p>NavBar</p>
-        </NavBarComponentsContainer>
+        </NavBarContainer>
     )
 }
