@@ -1,13 +1,16 @@
+import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
 import { HomePage } from './Pages/Homepage/Homepage';
 import { NavBar } from './Pages/NavBar/NavBar';
 
 const App = () => {
   return (
-    <div className='App-Background'>
+    <BrowserRouter>
       <NavBar/>
-      <HomePage/>
-    </div>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>   
+      </Routes>
+    </BrowserRouter>
   );
 }
 
