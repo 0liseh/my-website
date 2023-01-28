@@ -1,9 +1,12 @@
-import { NavBarContainer } from "./NavBarComponents"
+import { NavBarContainer, NavBarLogo, NavBarMenu } from "./NavBarComponents"
 
 export const NavBar = () => {
     return(
         <NavBarContainer>
-            <p>NavBar</p>
+            <NavBarLogo/>
+            <NavBarMenu>
+                
+            </NavBarMenu>
         </NavBarContainer>
     )
 }

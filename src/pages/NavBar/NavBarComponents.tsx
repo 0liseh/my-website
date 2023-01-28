@@ -1,18 +1,23 @@
 import styled from 'styled-components';
 
 export const NavBarContainer = styled.div`
-    width: "100vw";
-    height: "40px";
+    width: "100%";
+    height: "80px";
+    display: flex,;
+    justify-content: "space-between";
+    padding: "25px 25px";
+    position: sticky;
+    z-index: 10;
 `;
 
-export const NavLogo = styled.div`
+export const NavBarLogo = styled.div`
     
 `;
 
-export const NavMenu = styled.div`
+export const NavBarMenu = styled.div`
 
 `;
 
-export const NaveMenuPhoneView = styled.div`
-
+const NavBarMenuLinks = styled.link`
+    
 `;
