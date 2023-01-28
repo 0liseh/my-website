@@ -1,5 +1,12 @@
 export const HomePage = () => {
     return(
-        <p>HomePage</p>         
+        <div style={{
+            backgroundImage: `url(${process.env.PUBLIC_URL + '/images/two-pcs-background-image.jfif'})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+            height: "100vh"
+        }}>
+
+        </div>         
     )
 }
